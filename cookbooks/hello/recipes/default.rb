@@ -6,3 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+log "Hello, Chef!"
+
+package "zsh" do 
+    action :install
+end
+
